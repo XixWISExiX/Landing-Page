@@ -1,8 +1,103 @@
 /* https://palettes.shecodes.io/palettes/1548 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+div {
+  font-family: sans-serif;
+}
+
 ul {
   list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
+}
+
+button {
+  border-radius: 8px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  font-weight: bold;
+  width: 96px;
+  padding: 4px;
+}
+
+.sign-up-button-two {
+  border: 1px solid #f9faf8;
+}
+
+.brain {
+  width: 400px;
+  border-radius: 16px;
+}
+
+.svg {
+  width: 50px;
+}
+
+.header {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links-container {
+  padding: 8px 64px 64px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.title-subtext {
+  color: #e5e7eb;
+}
+
+.image-with-inner-container {
+  margin: 0 64px 0 64px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-subtext-button-container {
+  width: 350px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.first-fourth-container {
+  background-color: #1f2937;
+}
+
+.second-fourth-container {
+}
+
+.third-fourth-container {
+  background-color: #e5e7eb;
+}
+
+.final-fourth-container {
+  background: #3882f6;
+}
+
+.bottom-container {
+  background-color: #1f2937;
 }

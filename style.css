@@ -1,4 +1,7 @@
 /* https://palettes.shecodes.io/palettes/1548 */
+
+/* Put Everything in a flex-box */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,12 +37,16 @@ button {
 }
 
 img {
-  /* width: 100px; */
   width: 100%;
   max-width: 600px;
-  /* min-width: 100%; */
-  /* flex: 1 1 200px; */
   border-radius: 16px;
+}
+
+.sign-up-button-one:hover,
+.sign-up-button-two:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+  cursor: pointer;
 }
 
 .sign-up-button-two {
@@ -108,7 +115,6 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 32px;
 }
 
 .information-title {
@@ -121,7 +127,7 @@ img {
 
 .icons-container {
   width: 50%;
-  padding: 100px 0;
+  padding: 150px 0;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -141,12 +147,75 @@ img {
 
 .third-fourth-container {
   background-color: #e5e7eb;
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.quote-author {
+  color: #1f2937;
+  font-weight: bold;
+  margin-top: 16px;
 }
 
 .final-fourth-container {
+  margin: 100px 150px;
+  padding: 50px 100px;
+  border-radius: 8px;
   background: #3882f6;
 }
 
+.call-to-action-container {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+.call-to-action-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 750px) {
+  .call-to-action-text-container {
+    display: none;
+  }
+
+  .call-to-action-container {
+    justify-content: center;
+  }
+}
+
+.call-to-action {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.call-to-action-subtext {
+  color: #e5e7eb;
+}
+
 .bottom-container {
+  padding: 25px;
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
